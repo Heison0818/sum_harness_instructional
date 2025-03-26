@@ -12,6 +12,7 @@ void
 setup(int64_t N, double A[])
 {
    printf(" inside direct_sum problem_setup, N=%lld \n", N);
+   printf(" 1111111111111111111111111111inside direct_sum problem_setup, N=%lld \n", N);
 }
 
 double
