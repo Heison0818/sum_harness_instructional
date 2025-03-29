@@ -18,7 +18,7 @@ void
 setup(int64_t N, double A[])
 {
    printf(" inside sum_indirect problem_setup, N=%lld \n", N);
-   printf("\n");
+   
    
    srand48(40);
    indices.resize(N);
@@ -32,9 +32,9 @@ double
 sum(int64_t N, double A[])
 {
    printf(" inside sum_indirect perform_sum, N=%lld \n", N);
-   printf("\n");
+   
    double result = 0.0;
-   for (int64_t i = 0; i < N; ++i) {
+   for (int64_t i = 0; i < N; ) {
       result += A[indices[i]];
    }
 
