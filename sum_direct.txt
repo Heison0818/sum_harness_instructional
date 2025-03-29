@@ -1,0 +1,36 @@
+lilolilo@nid200026:~/sum_harness_instructional/build> cat sum_direct_log.txt 
+Working on problem size N=8388608 
+ inside direct_sum problem_setup, N=8388608 
+ inside direct_sum perform_sum, N=8388608 
+ Sum result = 35184367894528.000000 
+ Time elapsed = 0.007592 seconds
+
+Working on problem size N=16777216 
+ inside direct_sum problem_setup, N=16777216 
+ inside direct_sum perform_sum, N=16777216 
+ Sum result = 140737479966720.000000 
+ Time elapsed = 0.014822 seconds
+
+Working on problem size N=33554432 
+ inside direct_sum problem_setup, N=33554432 
+ inside direct_sum perform_sum, N=33554432 
+ Sum result = 562949936644096.000000 
+ Time elapsed = 0.029677 seconds
+
+Working on problem size N=67108864 
+ inside direct_sum problem_setup, N=67108864 
+ inside direct_sum perform_sum, N=67108864 
+ Sum result = 2251799780130816.000000 
+ Time elapsed = 0.059284 seconds
+
+Working on problem size N=134217728 
+ inside direct_sum problem_setup, N=134217728 
+ inside direct_sum perform_sum, N=134217728 
+ Sum result = 9007199187632128.000000 
+ Time elapsed = 0.117919 seconds
+
+Working on problem size N=268435456 
+ inside direct_sum problem_setup, N=268435456 
+ inside direct_sum perform_sum, N=268435456 
+ Sum result = 36028796817637376.000000 
+ Time elapsed = 0.236430 seconds
