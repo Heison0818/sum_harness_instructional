@@ -12,7 +12,6 @@
 #include "sums.h"
 
 
-static std::vector<int64_t> indices;
 
 void 
 setup(int64_t N, double A[])
@@ -21,10 +20,9 @@ setup(int64_t N, double A[])
    
    
    srand48(40);
-   indices.resize(N);
+   
    for (int64_t i = 0; i < N; ++i) {
       A[i] = static_cast<double>(lrand48() % N);
-      indices[i] = lrand48() % N;
    }
 }
 
@@ -35,7 +33,7 @@ sum(int64_t N, double A[])
    
    double result = 0.0;
    for (int64_t i = 0; i < N; ++i) {
-      result += A[indices[i]];
+      result += A[i];
    }
 
    return result;

@@ -6,3 +6,19 @@ Problem Size,code 1,code 2,code 3
 256,0.00236,0.0875,0.20877
 512,0.01201,0.1418,0.89089
 1024,0.07743,0.81365,3.04055
+problemsize, sum_dire got it,wait
+eg:
+sum_direct, MFLOP/s,% of memory bandwidth utilized ,Avg memory latency
+Sum_indirect
+Sum_vector 
+so can can compare  it? 
+the problem size should be the same?
+yes
+another problem
+he menetion to  use our local machine and try>? it that mean we need to run it on vscode?
+MFLop/s, sum_dire, sum_indire, sum_vector? 
+Memory bandwidth, sum_dire, sum_indire, sum_vector
+Memory latency, sum_dire, sum_indire, sum_vector
+got it 
+can i do it on python?
+so i need to calculate it first, and then put all the data to the txt file, and python just  create the diagraam?

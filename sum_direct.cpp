@@ -27,7 +27,10 @@ sum(int64_t N, double A[])
    for (int64_t i = 0; i < N; ++i) {
       result += A[i];
    }
-
    return result;
 }
 
+
+yes
+how can I make these  3 txt file into the cvs file and let python to read it?
+ok

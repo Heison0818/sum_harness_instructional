@@ -1,0 +1,37 @@
+lilolilo@perlmutter:login35:~/sum_harness_instructional/build> ./sum_vector | tee sum_vector_log.txt
+Working on problem size N=8388608 
+ inside sum_vector problem_setup, N=8388608 
+ inside sum_vector perform_sum, N=8388608 
+ Sum result = 35184367894528.000000 
+ Time elapsed = 0.010278 seconds
+
+Working on problem size N=16777216 
+ inside sum_vector problem_setup, N=16777216 
+ inside sum_vector perform_sum, N=16777216 
+ Sum result = 140737479966720.000000 
+ Time elapsed = 0.020972 seconds
+
+Working on problem size N=33554432 
+ inside sum_vector problem_setup, N=33554432 
+ inside sum_vector perform_sum, N=33554432 
+ Sum result = 562949936644096.000000 
+ Time elapsed = 0.041430 seconds
+
+Working on problem size N=67108864 
+ inside sum_vector problem_setup, N=67108864 
+ inside sum_vector perform_sum, N=67108864 
+ Sum result = 2251799780130816.000000 
+ Time elapsed = 0.082040 seconds
+
+Working on problem size N=134217728 
+ inside sum_vector problem_setup, N=134217728 
+ inside sum_vector perform_sum, N=134217728 
+ Sum result = 9007199187632128.000000 
+ Time elapsed = 0.168599 seconds
+
+Working on problem size N=268435456 
+ inside sum_vector problem_setup, N=268435456 
+ inside sum_vector perform_sum, N=268435456 
+ Sum result = 36028796817637376.000000 
+ Time elapsed = 0.345243 seconds
+
