@@ -14,7 +14,7 @@ void
 setup(int64_t N, double A[])
 {
    printf(" inside sum_vector problem_setup, N=%lld \n", N);
-   printf("\n");
+   //printf("\n");
    for (int64_t i = 0; i < N; ++i) {
       A[i] = static_cast<double>(i);
    
@@ -25,7 +25,7 @@ double
 sum(int64_t N, double A[])
 {
    printf(" inside sum_vector perform_sum, N=%lld \n", N);
-   printf("\n");
+   //printf("\n");
    double result = 0.0;
    for (int64_t i = 0; i < N; ++i) {
       result += A[i];
