@@ -13,6 +13,7 @@
 #include <random>
 #include <vector>
 #include <string.h>
+#include <ctime>
 
 #include "sums.h"
 
