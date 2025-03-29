@@ -22,7 +22,7 @@ setup(int64_t N, double A[])
    srand48(40);
    
    for (int64_t i = 0; i < N; ++i) {
-      A[i] = static_cast<double>(lrand48() % N);
+      A[i] = lrand48() % N;
    }
 }
 
